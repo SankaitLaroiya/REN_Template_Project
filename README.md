@@ -1,4 +1,4 @@
-# REN_Template_Project
+# ReactNodeExpress-TemplateProject
 React, Express, NodeJS template project (with static content serving, routing)
 
 # Instructions
