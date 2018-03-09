@@ -4,7 +4,7 @@ React, Express, NodeJS template project
 # Instructions
 - Run npm install in root and then in client folder to install all the dependencies before beginning.
 - To run in dev, in root, do "npm run dev"
-- If everything worked fine, you should see 'Hello World!' and a message from the server on localhost:3000
+- If everything worked fine, you should see 'Hello World!' and a message from the server on localhost:3006
 
 # Information
 - Server runs on port 5000 (change it in server.js)
