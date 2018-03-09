@@ -19,7 +19,9 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 // =============== Endpoints ===============
-
+app.use('/sayHello', (req, res) => {
+    res.send({message: "Server says hello!"});
+});
 
 // =============== KICK OFF ===============
 app.listen(port, () => console.log(`Listening on port ${port}`));
