@@ -23,5 +23,11 @@ app.use('/sayHello', (req, res) => {
     res.send({message: "Server says hello!"});
 });
 
+
+app.get('*', (req, res) => {
+    res.sendFile('index.html', {root: __dirname + '/client/build'});
+});
+
+
 // =============== KICK OFF ===============
 app.listen(port, () => console.log(`Listening on port ${port}`));

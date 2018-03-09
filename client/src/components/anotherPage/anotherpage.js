@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
-import './app.css';
+import './anotherpage.css';
 
-class App extends Component {
+class AnotherPage extends Component {
 
     state = {
         serverMessage: ''
@@ -24,15 +23,13 @@ class App extends Component {
     render() {
         return (
             <div>
-                 <p>Hello World!</p>
+                 <p>Hello World! from Another Page</p>
 
                  {(this.state.serverMessage !== '') ? <p>{this.state.serverMessage}</p> : ''}
-
-                 <Link to="/anotherpage">Go to another page</Link>
                 
             </div>
         );
     }
 }
 
-export default App;
+export default AnotherPage;
