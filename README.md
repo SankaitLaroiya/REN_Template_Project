@@ -14,4 +14,5 @@ React, Express, NodeJS template project (with static content serving, routing)
 - React Front end proxies all the requests to localhost:5000 (change it in client/package.json, this should match the server port in server.js)
 - Different routes can be added to the front end (add routes in client/src/components/router/router.js)
 - Use "npm run build" in the client folder to generate production build for client side after finalizing the front end and then serve static content from server. Currently, the static directory is set to client/build (change it in server.js)
+- For all the npm scripts see server's package.json
 - Happy Coding :)
