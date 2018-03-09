@@ -13,6 +13,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 // =============== Static Directory ===============
+
+// Here, static directory is set to /client/build 
+// (This folder will be generated after running build in client folder, see README)
 app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 // =============== Endpoints ===============
